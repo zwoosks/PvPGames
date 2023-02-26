@@ -13,6 +13,7 @@ public class MinigameStartEvent extends PvPGamesEvent {
     public MinigameStartEvent(PvPMinigame minigame, CustomPlayer[] players) {
         super(minigame.getGame());
         this.players = players;
+        this.minigame = minigame;
     }
 
     @Override
