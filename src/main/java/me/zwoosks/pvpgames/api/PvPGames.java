@@ -1,4 +1,9 @@
 package me.zwoosks.pvpgames.api;
 
-public class PvPGames {
+import org.bukkit.plugin.Plugin;
+
+public interface PvPGames extends Plugin {
+
+
+
 }
